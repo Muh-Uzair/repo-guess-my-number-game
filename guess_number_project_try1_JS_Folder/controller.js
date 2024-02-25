@@ -49,10 +49,7 @@ function control_restore_again_clicked()
     model.generate_random_number_function() ;
 }
 
-function new_feature_branch_function()
-{
-    console.log(`You are on new-feature-branch`)
-}
+
 new_feature_branch_function() ;
 
 function init()
