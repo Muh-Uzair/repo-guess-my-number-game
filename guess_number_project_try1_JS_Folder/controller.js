@@ -50,7 +50,7 @@ function control_restore_again_clicked()
 }
 
 
-new_feature_branch_function() ;
+
 
 function init()
 {
