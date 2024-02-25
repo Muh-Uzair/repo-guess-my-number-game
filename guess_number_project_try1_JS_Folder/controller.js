@@ -49,13 +49,18 @@ function control_restore_again_clicked()
     model.generate_random_number_function() ;
 }
 
+function new_feature_branch_function()
+{
+    console.log(`You are on new-feature-branch`)
+}
+new_feature_branch_function() ;
 
 function init()
 {
     model.generate_random_number_function() ;
     view_check_button.add_event_listener_function_check_button(control_check_guessed_number)
     view_again_button.add_event_listener_function_again_button(control_restore_again_clicked) ;
-    console.log(`HACKED`)
+    
     
     
 }
